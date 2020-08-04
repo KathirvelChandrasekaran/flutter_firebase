@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/views/signin.dart';
-import 'package:flutter_firebase/views/signup.dart';
+import 'package:flutter_firebase/helper/authenticate.dart';
 
 void main() {
       runApp(MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
                         fontFamily: "OverpassRegular",
                         visualDensity: VisualDensity.adaptivePlatformDensity,
                   ),
-                  home: SingUp(),
+                  home: Authenticate(),
             );
       }
 }
